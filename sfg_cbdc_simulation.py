@@ -7,7 +7,6 @@ REFI_ZINS = 0.045               # 4,5 %, EZB Hauptrefi
 EINLAGENZINS = 0.005            # angenommener Zinsaufwand für Kundeneinlagen (konservativ)
 
 # --- UI: Eingabeparameter ---
-st.title("Simulation: Auswirkungen von Wholesale-CBDC auf Sparkassen-Bilanzen (B2B)")
 cbdc_anteil = st.slider("CBDC-/Stablecoin-Anteil am B2B-Zahlungsverkehr (%)", 0, 50, 10)
 substitutionsrate = cbdc_anteil / 100
 
